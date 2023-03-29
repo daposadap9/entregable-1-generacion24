@@ -1,0 +1,15 @@
+button{ /* quita el contorno */
+    border-radius: 50%;
+    aspect-ratio: 1;
+    background-color: #25063F;
+    border: 1px solid white;
+    position: absolute;
+    margin-top: 30px;
+    left: 47%;
+    cursor: pointer;
+    transition: background 200ms ease;
+    z-index: 20;
+  }
+  button:hover{
+    background-color: #340858;
+  }
