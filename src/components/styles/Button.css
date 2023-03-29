@@ -10,6 +10,17 @@ button{ /* quita el contorno */
     transition: background 200ms ease;
     z-index: 20;
   }
+
   button:hover{
     background-color: #340858;
+  }
+  @media (max-width: 767px) {
+    button{
+      left: 45%;
+    }
+  }
+  @media (max-width: 500px) {
+    button{
+      left: 40%;
+    }
   }
